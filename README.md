@@ -2,7 +2,7 @@
 
 # Overview
 
-Webpage Screenshot is a JavaFX program that lets you to enter the URL of a webpage and it will take a screenshot and
+Webpage Capture is a Java swing  program that lets you to enter the URL of a webpage and it will take a screenshot and
 save it as a .png image.
 
 ## To build a .jar file
@@ -22,13 +22,13 @@ Follow these steps to build the .jar file in Intellij.
 * From the main menu, select the build dropdown.
 * Select the option build artifacts.
 
+
 ## Usage
 
-To use from the command line, pass in the file name (for the output image) and URL as the first and second argument
+To use the program , pass in the url name in the textfield and save the image to the location of your choice. 
+Then click on make screenshot.  By default The images will be saved to the same directory where the Jar file is located. 
+
 
 ```
-java -jar Capture.jar homepage https://thenewboston.com/
-```
 
-Also, you must have a folder called "images" in the same directory where the Capture.jar file is saved. This is where
-the final images will be saved.
+
